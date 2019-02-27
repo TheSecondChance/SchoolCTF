@@ -385,7 +385,7 @@ input, select, textarea {
 			}
 
 			#main .item.intro {
-				background-color: #d64760;
+				background-color: rgba(100,10,110,0.8);
 				background-image: url("images/overlay.png");
 				display: -moz-flex;
 				display: -webkit-flex;
@@ -399,7 +399,8 @@ input, select, textarea {
 				-webkit-justify-content: center;
 				-ms-justify-content: center;
 				justify-content: center;
-				padding: 1em 3em;
+				padding: 1em 2em;
+                width: 250px !important;
 			}
 
 				#main .item.intro h1 {
