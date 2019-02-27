@@ -83,10 +83,10 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("img/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../img/bg.jpg");
-		background-image: url("img/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../img/bg.jpg");
-		background-image: url("img/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../img/bg.jpg");
-		background-image: url("img/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../img/bg.jpg");
+		background-image: url("images/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../img/1.jpg");
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../img/1.jpg");
+		background-image: url("images/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../img/1.jpg");
+		background-image: url("images/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../img/1.jpg");
 		background-position: top left, bottom left, auto;
 		background-size: auto, 100% 100%, cover;
 		background-attachment: fixed;
@@ -178,6 +178,7 @@ input, select, textarea {
 		font-weight: 400;
 		color: #fff;
 		letter-spacing: -0.05em;
+		font-size: 17pt;
 	}
 
 	strong, b {
@@ -366,9 +367,9 @@ input, select, textarea {
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
-			margin: 5px;
+			margin: 6px;
 			height: 16em;
-			box-shadow: 0 0 0 10px #ffffff;
+			box-shadow: 0 0 0 2px rgba(0,0,0,0.5);
 		}
 
 			#main .item.span-1 {
@@ -384,8 +385,8 @@ input, select, textarea {
 			}
 
 			#main .item.intro {
-				background-color: #d84824dc;
-				background-image: url("img/overlay.png");
+				background-color: #d64760;
+				background-image: url("images/overlay.png");
 				display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;
@@ -511,7 +512,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			#main .item {
-				height: 12em;
+				height: 13em;
 			}
 
 				#main .item.span-1 {
@@ -711,7 +712,7 @@ input, select, textarea {
 			top: 50%;
 			left: 50%;
 			margin: -24px 0 0 -24px;
-			background: url("img/loader.gif");
+			background: url("images/loader.gif");
 			opacity: 0.25;
 		}
 
