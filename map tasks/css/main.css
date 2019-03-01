@@ -56,7 +56,7 @@ body {
     padding: 0;
     width: auto;
     color: rgba(210, 180, 210, 1);
-    border: 0.5px solid rgba(200, 200, 200, 0.1);
+    /*border: 0.5px solid rgba(200, 200, 200, 0.1);*/
 }
 .lit {
     /* position: relative;*/
@@ -88,17 +88,20 @@ body {
 
 /*--- map ---*/
 .map {
-    position:fixed;
+    position:absolute;
     left: 15%;
     right: 15%;
     bottom: 0px;
     top: 75px;
     background: rgba(0,0,0,0.3);
+    min-height: 500px;
+    min-width: 500px;
 }
 .task {
     position: absolute;
     height: 38px;
     width: 38px;
+    z-index: 1;
 }
 .done {
     background: url("../img/done.png");
@@ -107,7 +110,15 @@ body {
     background: url("../img/todo.png");
 }
 
-
-
-
+hr.connection{
+    position: absolute;
+    width: 500px;
+    height: 4px;
+    border: 0px;
+    background-color: rgba(210,150,210,0.7);
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+    
+  }
 /*--- end map ---*/
