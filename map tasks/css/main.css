@@ -1,0 +1,105 @@
+body {
+    /*background-image: -moz-url("../img/bg.jpg");
+    background-image: -webkit-url("../img/bg.jpg");
+    background-image: -ms-url("../img/bg.jpg");
+    background-image: url("../img/bg.jpg");
+    background-position: top left, bottom left, auto;
+    background-size: auto, 100% 100%, cover;
+    background-attachment: fixed;
+    background-repeat: repeat, no-repeat, auto;*/
+    background: url("../img/bg.jpg");
+    margin: 0;
+    /*position: relative;
+		background-color: #150C07;
+		line-height: 1.75em;
+		overflow-x: hidden;
+		overflow-y: auto;*/
+}
+
+
+
+/*--- top ---*/
+.top {
+    position: fixed;
+    /*display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;*/
+    left: 0;
+    top: 0;
+    height: 75px;
+    width: 100%;
+    background-color: rgba(95, 47, 106, 0.4)
+}
+.logo {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    left: -3px;
+    display: inline-block;
+}
+.team {
+    position: absolute;
+    display: inline-block;
+    right: 5px;
+    top: 0px;
+}
+.ult {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 74px;
+    padding: 0;
+    width: auto;
+    color: rgba(210, 180, 210, 1);
+    border: 0.5px solid rgba(200, 200, 200, 0.1);
+}
+.lit {
+    /* position: relative;*/
+    /*top: 0px;*/
+    vertical-align: middle;
+    display: inline-block;
+    list-style: none;
+    height: 100%;
+    width: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.before {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.inner {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+/*--- end top ---*/
+
+
+
+
+
+/*--- map ---*/
+.map {
+    position:absolute;
+    left: 15%;
+    right: 15%;
+    margin-top: 75px;
+    
+    background: rgba(0,0,0,0.3);
+}
+
+
+
+
+
+
+
+/*--- end map ---*/
