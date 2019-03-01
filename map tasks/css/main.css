@@ -1,3 +1,10 @@
+@font-face{
+font-family: Xolonium-Regular;
+src: url(../fonts/Xolonium-Regular.otf);
+font-weight: normal;
+font-style: normal;
+}
+
 body {
     /*background-image: -moz-url("../img/bg.jpg");
     background-image: -webkit-url("../img/bg.jpg");
@@ -14,6 +21,7 @@ body {
 		line-height: 1.75em;
 		overflow-x: hidden;
 		overflow-y: auto;*/
+    font-family: Xolonium-Regular;
 }
 
 
@@ -102,6 +110,9 @@ body {
     height: 38px;
     width: 38px;
     z-index: 1;
+}
+.task:hover {
+    
 }
 .done {
     background: url("../img/done.png");
