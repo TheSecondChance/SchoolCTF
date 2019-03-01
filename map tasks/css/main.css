@@ -88,16 +88,24 @@ body {
 
 /*--- map ---*/
 .map {
-    position:absolute;
+    position:fixed;
     left: 15%;
     right: 15%;
-    margin-top: 75px;
-    height: calc(100% - 75px);
+    bottom: 0px;
+    top: 75px;
     background: rgba(0,0,0,0.3);
 }
-
-
-
+.task {
+    position: absolute;
+    height: 38px;
+    width: 38px;
+}
+.done {
+    background: url("../img/done.png");
+}
+.todo {
+    background: url("../img/todo.png");
+}
 
 
 
