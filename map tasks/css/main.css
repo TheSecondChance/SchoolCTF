@@ -14,7 +14,9 @@ body {
     background-size: auto, 100% 100%, cover;
     background-attachment: fixed;
     background-repeat: repeat, no-repeat, auto;*/
-    background: url("../img/bg.jpg");
+    background-color:#414;
+    background-image: url("../img/bg.jpg");
+    background-size: 100% 100%;
     margin: 0;
     /*position: relative;
 		background-color: #150C07;
