@@ -92,7 +92,7 @@ input, select, textarea {
 		background-attachment: fixed;
 		background-repeat: repeat, no-repeat, auto;
 		position: relative;
-		background-color: #150C07;
+		background-color: rgb(240, 94, 16);
 		line-height: 1.75em;
 		overflow-x: hidden;
 		overflow-y: auto;
@@ -385,7 +385,7 @@ input, select, textarea {
 			}
 
 			#main .item.intro {
-				background-color: rgba(100,10,110,0.8);
+				background-color: #d64760;
 				background-image: url("images/overlay.png");
 				display: -moz-flex;
 				display: -webkit-flex;
@@ -399,8 +399,7 @@ input, select, textarea {
 				-webkit-justify-content: center;
 				-ms-justify-content: center;
 				justify-content: center;
-				padding: 1em 2em;
-                width: 250px !important;
+				padding: 1em 3em;
 			}
 
 				#main .item.intro h1 {
@@ -430,7 +429,30 @@ input, select, textarea {
 					width: 100%;
 					padding: 1em;
 					font-weight: 400;
-					line-height: 1em;
+					line-height: 0.1em;
+					z-index: 2;
+				}
+				#main .item.thumb h3 {
+					position: absolute;
+					bottom: 1;
+					right: 0px;
+					text-align-last: right;
+					background: rgba(18, 21, 29, 0.85);
+					width: 50%;
+					padding: 1em;
+					font-weight: 400;
+					line-height: 0.1em;
+					z-index: 2;
+				}
+				#main .item.thumb h4 {
+					position: absolute;
+					bottom: 1;
+					left: 0px;
+					background: rgba(18, 21, 29, 0.85);
+					width: 50%;
+					padding: 1em;
+					font-weight: 400;
+					line-height: 0.1em;
 					z-index: 2;
 				}
 
