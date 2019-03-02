@@ -12,8 +12,8 @@ body {
     background-image: url("../img/bg.jpg");
     background-position: top left, bottom left, auto;
     background-size: auto, 100% 100%, cover;
-    background-attachment: fixed;
     background-repeat: repeat, no-repeat, auto;*/
+    background-attachment: fixed;
     background-color:#414;
     background-image: url("../img/bg.jpg");
     background-size: 100% 100%;
@@ -57,6 +57,7 @@ body {
     display: inline-block;
     right: 5px;
     top: 0px;
+    color: rgba(0,0,0,0);
 }
 .ult {
     position: relative;
@@ -113,7 +114,16 @@ body {
     width: 38px;
     z-index: 1;
 }
-.task:hover {
+.task:hover::after {
+    content: attr(data-title); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 90%; top: 20%; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: rgba(150,50,150,0.7); /* Полупрозрачный цвет фона */
+    font-size: 11px; /* Размер текста подсказки */
+    color: rgba(210,180,210,1);
+    padding: 5px 5px; /* Поля */
+    border: 1px solid #838; /* Параметры рамки */
     
 }
 .done {
