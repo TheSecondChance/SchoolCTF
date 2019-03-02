@@ -1,3 +1,10 @@
+@font-face {
+    font-family: Xolonium;
+    src: url(../fonts/Xolonium-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     background: url(../img/LoginPage/Background.png) no-repeat center top /cover;
     margin: 0;
