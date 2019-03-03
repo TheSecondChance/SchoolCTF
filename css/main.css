@@ -167,7 +167,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+/*				font-size: 11pt;*/
 			}
 
 		}
@@ -384,7 +384,7 @@ input, select, textarea {
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
 			margin: 6px;
-			height: 25vh;
+			height: 29vh;
 			box-shadow: 0 0 0 2px rgba(0,0,0,0.5);
 		}
 
