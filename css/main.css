@@ -130,12 +130,12 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			body {
-/*
+
 				background-attachment: scroll;
 				background-size: auto, 100% 100%, 250% auto;
 				background-repeat: repeat, no-repeat, no-repeat;
 				background-position: top left, bottom left, 50% 0%;
-*/
+
 			}
 
 		}
