@@ -334,7 +334,7 @@
 			}
 
 			&.intro {
-				background-color: #d64760;
+				background-color: rgba(100,10,110,0.8);
 				background-image: url('images/overlay.png');
 				@include vendor('display', 'flex');
 				@include vendor('flex-direction', 'column');
