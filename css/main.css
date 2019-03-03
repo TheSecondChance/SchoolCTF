@@ -816,25 +816,6 @@ input, select, textarea {
 			line-height: 75px;
 		}
 
-		.poptrox-popup .nav-next {
-			right: 0;
-			text-align: right;
-			padding-right: 30px;
-		}
-
-			.poptrox-popup .nav-next:before {
-				content: '\f105';
-			}
-
-		.poptrox-popup .nav-previous {
-			left: 0;
-			text-align: left;
-			padding-left: 30px;
-		}
-
-			.poptrox-popup .nav-previous:before {
-				content: '\f104';
-			}
 
 		@media screen and (max-width: 736px) {
 
