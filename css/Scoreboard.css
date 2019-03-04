@@ -125,8 +125,8 @@ header {
 
 .img {
     display: inline-block;
-    height: 2em;
-    width: 2em;
+    height: 4em;
+    width: 4em;
     margin-left: 0.2em;
     margin-right: 0.2em;
     margin: 0.2em;
@@ -175,7 +175,7 @@ header {
     left: 10px;
     text-align: center;
     display: inline-block;
-    width: calc(33% - 6em);
+    width: calc(33% - 8em);
     line-height: 1em;
     vertical-align: middle;
 }
