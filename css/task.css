@@ -26,11 +26,13 @@ body{
 h1{
     text-align: center
 }
-.rule{
+p{
+    text-align: center
+}
+
+.task{
     margin: 5%;
     background: rgba(0,0,0,0.7);
     color: rgb(220,210,200);
-}
-.dec {
-    list-style: decimal
+    text-align: center;
 }
