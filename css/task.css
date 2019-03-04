@@ -32,6 +32,10 @@ p{
 
 .task{
     margin: 5%;
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 1%;
     background: rgba(0,0,0,0.7);
     color: rgb(220,210,200);
     text-align: center;
