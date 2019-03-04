@@ -11,33 +11,66 @@ body {
     padding: 0;
     border: 0;
     font-size: 100%;
-    font-family: Xolonium-Regular !important;
+    font-family: Xolonium !important;
     color: #1bda1c;
     background-image: url("../img/1.jpg");
     background-size: 100% 100%;
     background-attachment: fixed;
     position: relative;
     background-color: #150C07;
+    
 }
 
-header{
-    height: 100%;
+a {
+    text-decoration: none;
+    font-size: 100%;
+    color: #1bda1c;
 }
-.logo{
+
+.back {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+/*    margin-top: 1em;*/
+    display: inline-block;
+    text-align: center;
+    font-size: 2vw;
+    color: #1bda1c
+}
+
+/*
+header {
+    height: 5em;
+}
+*/
+
+.logo {
     background: rgb(0, 0, 0, 0.6);
     width: 100%;
-    display: flex;
-    height: 7vw;
+    display: inline-block;
+    height: 6em;
+    line-height: 6em;
 }
-.graphiclogo{
-    display: block;
-    margin-top: auto;
+
+.graphiclogo {
+/*    display: block;*/
+    
+/*
+    margin-left: 60px;
+    height: 90%;
+*/
+    
+/*    display: block;*/
+    margin-top: 1vw;
     margin-bottom: auto;
     margin-left: 60px;
     height: 75%;
 }
+
 .score {
     margin: 5%;
+    margin-top: 1%;
+    margin-bottom: 1em;
     background: rgba(0, 0, 0, 0.6);
     color: #1bda1c;
     font-family: 'Xolonium';
@@ -47,12 +80,30 @@ header{
     right: 0;
 }
 
-.frame {
+.frametop {
 
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background: rgba(0, 0, 0, 0);
+    width: 80%;
+    left: 10%;
+    height: 5em;
+    background: url("../img/Top.png");
+    padding-bottom: 10px;
+    background-size: 100% 100%;
+}
+
+.framebot {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    left: 10%;
+    height: 3em;
+    background: url("../img/bot.png");
+    background-size: 100% 100%;
+    margin-bottom: 10px;
 }
 
 .rez {
@@ -66,46 +117,190 @@ header{
     margin-top: 10px;
     margin-bottom: 10px;
     bottom: 0;
-    background: url("../img/midle.png");
-    background-size: 100% 100%;
+    background: url("../img/mid.png");
+    background-size: 100% auto;
+    background-repeat: round;
 }
 
-/*
-.img{
-    height: 100%;
-    width: 90%;
-    left: 5%;
-    position: absolute;
-}*/
+
+.img {
+    display: inline-block;
+    height: 2em;
+    width: 2em;
+    margin-left: 1.8em;
+    margin-right: 0.2em;
+    background: rgba(200, 100, 180, 0.5);
+    border: 1px;
+    border-style: solid;
+    vertical-align: top;
+}
+
 .table {
-    list-style: none;
+    list-style: decimal;
     padding-left: 0;
 }
 
-li {
+.lin {
+    list-style: none;
     text-align: left;
     padding-left: 0;
+    margin-top: 1.5em;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1em;
+    border: 1px;
+    border-style: solid;
+    border-color: #1bda1ca0;
+    border-bottom: none;
+}
+
+.lic {
+    text-align: left;
+    padding-left: 0;
+    margin-top: 1em;
+    border: 1px;
+    border-style: solid;
+    border-bottom: none;
+    border-color: #1bda1c90;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 2em;
 }
 
 .team {
-    left: 0;
+    left: 10px;
+    text-align: center;
+    display: inline-block;
+    width: calc(33% - 6em);
+    line-height: 1em;
+    vertical-align: top;
+}
+
+.teamn {
+    /*    margin-left: 0.5em;*/
     text-align: left;
     display: inline-block;
-    margin-left: 5%;
+    width: 25%;
+    line-height: 1em;
+    vertical-align: top;
+}
+
+.txlog {
+    display: inline-block;
+    margin-left: 0.5em;
+}
+
+.un {
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 23%;
+    height: auto;
+    line-height: 1em;
+    vertical-align: bottom;
+
+}
+
+.unn {
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 23%;
+    height: auto;
+    line-height: 1em;
+    vertical-align: bottom;
+
 }
 
 .point {
     right: 0;
-    text-align: right;
+    text-align: center;
     display: inline-block;
     position: absolute;
-    margin-right: 10%;
+    margin-right: 15%;
+    width: 15%;
+    line-height: 1em;
+    /*    margin-top: 1em;*/
 }
-hr{
-    
+
+.pointn {
+    right: 0;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    margin-right: 15%;
+    width: 15%;
+    line-height: 1em;
+    /*    margin-top: 1em;*/
+}
+
+.otn {
+    left: 0;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    margin-left: 14%;
+    width: 2%;
+    line-height: 1em;
+}
+
+
+/*
+hr {
+
     background-color: #1bda1c;
     padding: 0;
     margin: 10px;
     border: 0px;
     height: 1px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+*/
+@media screen and (max-width: 980px) {
+
+    .un,
+    .unn,
+    .txlog,
+    .img,
+    .otn,
+    .back{
+        display: none;
+    }
+
+    .team,
+    .teamn,
+        {
+        width: 50%
+    }
+
+    .point,
+    .pointn {
+        width: 35%;
+    }
+
+    .teamn {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .frametop,
+    .framebot {
+        display: none;
+    }
+
+    .cont {
+        background: none;
+    }
+
+    .rez {
+        top: 0;
+    }
+    .graphiclogo{
+        margin-left: 0;
+    }
 }
