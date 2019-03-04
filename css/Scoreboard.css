@@ -182,16 +182,17 @@ header {
 
 .teamn {
     /*    margin-left: 0.5em;*/
-    text-align: left;
+    text-align: center;
     display: inline-block;
-    width: 25%;
+    width: calc(25% - 4em);
     line-height: 1em;
     vertical-align: middle;
 }
 
 .txlog {
     display: inline-block;
-    margin-left: 0.5em;
+    margin-left: 3em;
+    margin-right: 1em;
     text-align: left;
     vertical-align: middle;
 }
@@ -202,6 +203,7 @@ header {
     /*    position: absolute;*/
     /*    left: 50%;*/
     /*    transform: translateX(-50%);*/
+    
     width: 40%;
     height: auto;
     line-height: 1em;
