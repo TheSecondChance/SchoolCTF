@@ -4,8 +4,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
-
 body {
     margin: 0;
     padding: 0;
@@ -18,50 +16,30 @@ body {
     background-attachment: fixed;
     position: relative;
     background-color: #150C07;
-
 }
-
-a {
-    text-decoration: none;
-    font-size: 100%;
-    color: #1bda1c;
-}
-
-.back {
-    position: absolute;
-    right: 0;
-    margin-right: 10%;
-    /*    margin-top: 1em;*/
-    display: inline-block;
-    text-align: center;
-    font-size: 2vw;
-    color: #1bda1c
-}
-
-/*
-header {
-    height: 5em;
-}
-*/
-
-.logo {
-    background: rgb(0, 0, 0, 0.7);
+header{
+    display: flex;
     width: 100%;
-    display: inline-block;
-    height: 6em;
-    line-height: 6em;
+    background: rgb(0, 0, 0, 0.7);
+}
+a{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 15%;
+    cursor: pointer;
+    height: 100%;
+    color: #1bda1c;
+    top: 0;
+    bottom: 0;
+}
+.logo {
+    width: 100%;
+    display: block;
+    height: 7vw;
 }
 
 .graphiclogo {
-    /*    display: block;*/
-
-    /*
-    margin-left: 60px;
-    height: 90%;
-*/
-
-    /*    display: block;*/
-    margin-top: 1vw;
+    margin-top: 0.7vw;
     margin-bottom: auto;
     margin-left: 60px;
     height: 75%;
@@ -191,7 +169,7 @@ header {
 
 .txlog {
     display: inline-block;
-    margin-left: 3em;
+    margin-left: 2em;
     margin-right: 1em;
     text-align: left;
     vertical-align: middle;
@@ -230,7 +208,7 @@ header {
     display: inline-block;
     /*    position: absolute;*/
     /*    margin-right: 15%;*/
-    width: 25%;
+    width: 21%;
     line-height: 1em;
     /*    margin-top: 1em;*/
 }
@@ -241,7 +219,7 @@ header {
     display: inline-block;
     /*    position: absolute;*/
     /*    margin-right: 15%;*/
-    width: 25%;
+    width: 21%;
     line-height: 1em;
     /*    margin-top: 1em;*/
 }
@@ -255,6 +233,7 @@ header {
     margin-left: 0.5%;
     width: 3%;
     line-height: 1em;
+    /* font-size: 2em; */
 }
 
 
@@ -308,8 +287,13 @@ hr {
     .rez {
         top: 0;
     }
-
+    .logo{
+        /* margin-top: 0.2vw; */
+        margin-left: 5vw;
+        height: 3em;
+    }
     .graphiclogo {
+        margin-top: 10px;
         margin-left: 0;
     }
 }
