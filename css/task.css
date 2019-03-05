@@ -32,7 +32,8 @@ p{
     margin-right: 10%;
 }
 .po{
-    opacity: 0.8;
+/*    opacity: 0.8;*/
+    color: #dd7b;
 }
 a{
     color: rgb(220,210,200);
@@ -44,19 +45,19 @@ a{
     padding-top: 2%;
     padding-bottom: 2%;
     margin-bottom: 1%;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0,0,0,0.8);
     color: rgb(220,210,200);
     text-align: center;
 }
 .inb{
     
-    color: #1bda1c;
+    color: #ccc;
     font-family: 'Xolonium';
     font-weight: normal;
     font-size: 1.2em;
 /*    width: 100%;*/
 /*    height: 2vw;*/
-    border: 1px solid #1bda1c55;
+    border: 1px solid #aaad;
     border-radius: 2px;
     background: rgb(0, 0, 0, 0.6);
     text-indent: 0.5vw;
@@ -69,7 +70,7 @@ a{
     width: 100%;
 */
     font-size: 1.2em;
-    border: 1px solid #1bda1c55;
+    border: 1px solid #aaad;
     background: rgb(20,20,20);
     color: rgb(220,210,200);
     text-align: center;
