@@ -358,7 +358,7 @@ input, select, textarea {
 		max-width: 100vw;
 		overflow-x: hidden;
 		-webkit-overflow-scrolling: touch;
-		padding: 5px;
+		padding: 2px;
 	}
 
 		#main .items {
@@ -889,4 +889,15 @@ input, select, textarea {
 .by{
     right: 0;
     margin-right: 5%;
+}
+
+.done{
+    
+}
+.todo{
+    filter: grayscale(100%);
+}
+.close{
+    opacity: 0.6;
+    filter: grayscale(5%);
 }
