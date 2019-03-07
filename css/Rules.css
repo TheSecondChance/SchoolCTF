@@ -4,33 +4,64 @@
     font-weight: normal;
     font-style: normal;
 }
-
-
 body{
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 110%;
     font-family: Xolonium-Regular !important;
-    
-    
-    
-    
-		background-image: url("../img/1.jpg");
-		background-size: 100% 100%;
-		background-attachment: fixed;
-		position: relative;
-		background-color: #150C07;
+	background-image: url("../img/1.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	position: relative;
 }
-
 h1{
     text-align: center
 }
 .rule{
+    padding: 1% 2% 2% 2%; 
     margin: 5%;
     background: rgba(0,0,0,0.8);
     color: rgb(220,210,200);
 }
 .dec {
-    list-style: decimal
+    margin: 0;
+    text-align: justify;
+    word-wrap: break-word;
+}
+li{
+    margin-bottom: 1.5em;
+}
+ul>li{
+    margin-top: 0.8em;
+    margin-bottom: 0;
+    list-style-type: disc;
+}
+button{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    font-size: 110%;
+    font-family: Xolonium-Regular !important;
+    border: none;
+    background: rgb(220,210,200);
+    padding: 10px 50px;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+}
+.fa-tasks{
+    font-size: 150%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.buttonText{
+    margin-left: 15px;
+    float: right;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+button:hover{
+    background: #ddd;
 }
