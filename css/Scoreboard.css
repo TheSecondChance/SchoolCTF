@@ -22,15 +22,37 @@ header{
     width: 100%;
     background: rgb(0, 0, 0, 0.7);
 }
-a{
+form{
     margin-top: auto;
     margin-bottom: auto;
-    margin-right: 15%;
+    text-align: center;
+    width: 30%;
+    margin-right: 5%;
+}
+button{
+    display: flex;
+    width: 100%;
+    font-size: 110%;
+    font-family: 'Xolonium';
+    border: none;
+    padding: 4%;
+    background: #1bda1c;
+    border-radius: 3px;
     cursor: pointer;
-    height: 100%;
-    color: #1bda1c;
-    top: 0;
-    bottom: 0;
+    outline: none;
+}
+.fa-tasks{
+    font-size: 150%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.buttonText{
+    margin-left: 20px;
+    float: right;
+    margin: auto;
+}
+button:hover{
+    background: #ff0;
 }
 .logo {
     width: 100%;
@@ -109,11 +131,6 @@ a{
     margin-right: 0.2em;
     margin: 0.2em;
     background: rgba(200, 100, 180, 0.5);
-/*
-    border: 1px;
-    border-style: solid;
-    border-color: #1bda1c80;
-*/
     vertical-align: middle;
 }
 
@@ -159,7 +176,6 @@ a{
 }
 
 .teamn {
-    /*    margin-left: 0.5em;*/
     text-align: center;
     display: inline-block;
     width: calc(25% - 4em);
@@ -178,10 +194,6 @@ a{
 .un {
     text-align: center;
     display: inline-block;
-    /*    position: absolute;*/
-    /*    left: 50%;*/
-    /*    transform: translateX(-50%);*/
-    
     width: 40%;
     height: auto;
     line-height: 1em;
@@ -192,9 +204,6 @@ a{
 .unn {
     text-align: center;
     display: inline-block;
-    /*    position: absolute;*/
-    /*    left: 50%;*/
-    /*    transform: translateX(-50%);*/
     width: 40%;
     height: auto;
     line-height: 1em;
@@ -203,52 +212,27 @@ a{
 }
 
 .point {
-    /*    right: 0;*/
     text-align: right;
     display: inline-block;
-    /*    position: absolute;*/
-    /*    margin-right: 15%;*/
     width: 21%;
     line-height: 1em;
-    /*    margin-top: 1em;*/
 }
 
 .pointn {
-    /*    right: 0;*/
     text-align: right;
     display: inline-block;
-    /*    position: absolute;*/
-    /*    margin-right: 15%;*/
     width: 21%;
     line-height: 1em;
-    /*    margin-top: 1em;*/
 }
 
 .otn {
-/*    left: 0;*/
     text-align: center;
     display: inline-block;
-/*    position: absolute;*/
-/*    margin-left: 14%;*/
     margin-left: 0.5%;
     width: 3%;
     line-height: 1em;
-    /* font-size: 2em; */
 }
 
-
-/*
-hr {
-
-    background-color: #1bda1c;
-    padding: 0;
-    margin: 10px;
-    border: 0px;
-    height: 1px;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-*/
 @media screen and (max-width: 980px) {
 
     .un,
@@ -288,12 +272,20 @@ hr {
         top: 0;
     }
     .logo{
-        /* margin-top: 0.2vw; */
         margin-left: 5vw;
         height: 3em;
     }
     .graphiclogo {
         margin-top: 10px;
         margin-left: 0;
+    }
+    form{
+        width: 50%;
+    }
+    button{
+        font-size: 70%;
+    }
+    .fa-tasks{
+        margin-right: 10px;
     }
 }
