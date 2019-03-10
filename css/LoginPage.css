@@ -81,8 +81,9 @@ input:focus{
     background: #1bda1c;
     color: black;
     text-align: center;
+    transition: 0.3s
 }
-.button:active{
+.button:hover{
     background: #fff000;
     box-shadow: 0 0 10px #fff000;
 }
