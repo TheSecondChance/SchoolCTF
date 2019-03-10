@@ -22,6 +22,18 @@ header{
     width: 100%;
     background: rgb(0, 0, 0, 0.7);
 }
+.logo {
+    width: 100%;
+    display: block;
+    height: 7vw;
+}
+
+.graphiclogo {
+    margin-top: 0.7vw;
+    margin-bottom: auto;
+    margin-left: 60px;
+    height: 75%;
+}
 form{
     margin-top: auto;
     margin-bottom: auto;
@@ -55,20 +67,6 @@ button:hover{
     float: right;
     margin: auto;
 }
-
-.logo {
-    width: 100%;
-    display: block;
-    height: 7vw;
-}
-
-.graphiclogo {
-    margin-top: 0.7vw;
-    margin-bottom: auto;
-    margin-left: 60px;
-    height: 75%;
-}
-
 .score {
     margin: 5%;
     margin-top: 1%;
@@ -274,6 +272,8 @@ button:hover{
     .logo{
         margin-left: 5vw;
         height: 3em;
+        margin-top: auto;
+        margin-bottom: 10px;
     }
     .graphiclogo {
         margin-top: 10px;
